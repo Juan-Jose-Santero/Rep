@@ -17,15 +17,10 @@ nav {
     justify-content: space-around;
 }
 
-nav a,footer a{
+nav a{
     color: #ffffff;
     text-decoration: none;
     
-}
-
-nav a:hover,footer a:hover {
-    color: #00bcd4;
-    text-decoration: underline;
 }
 
 h1, h2,footer {
@@ -34,6 +29,17 @@ h1, h2,footer {
     padding: 0.6rem 1rem;
     margin: 0;
     border-left: 5px solid #00bcd4;
+}
+
+nav a,footer a{
+    color: #ffffff;
+    text-decoration: none;
+    
+}
+
+nav a:hover,footer a:hover {
+    color: #00bcd4;
+    text-decoration: underline; 
 }
 
 h1 {
@@ -76,6 +82,11 @@ li {
     background-color: #1e1e1e;
     box-shadow: 0 0 15px rgba(0,0,0,0.4);
     border-radius: 8px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
 }
 
 @media (max-width: 768px) {
